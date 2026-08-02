@@ -1,2 +1,1 @@
-# python-mini-cup
-A penalty-shooting game created with Python and Pygame.
+Python Mini Cup is a simple 2D penalty-shooting game developed using Python and the Pygame library. The player uses the mouse to aim and shoot the ball toward the goal while avoiding a goalkeeper who moves from side to side. A successful goal increases the score and makes the goalkeeper move faster, while a saved or missed shot ends the game. The project uses custom images for the goal, goalkeeper, and ball, and includes five custom classes—Goal, Goalkeeper, Ball, Scoreboard, and Game—to organize the game objects and functionality. The game can be restarted by clicking the mouse or pressing the R key after game over.
