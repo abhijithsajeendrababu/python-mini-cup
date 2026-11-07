@@ -5,7 +5,7 @@ pygame.init()
 WIDTH = 800
 HEIGHT = 600
 
-GREEN = (34, 139, 34)
+PITCH_COLOR = (35, 83, 135)
 WHITE = (255, 255, 255)
 RED = (220, 20, 60)
 
@@ -247,7 +247,7 @@ class Game:
             self.game_over = True
 
     def draw(self):
-        self.screen.fill(GREEN)
+        self.screen.fill(PITCH_COLOR)
 
         self.goal.draw(self.screen)
         self.goalkeeper.draw(self.screen)
