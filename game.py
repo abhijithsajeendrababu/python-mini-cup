@@ -185,6 +185,7 @@ class Game:
         self.goalkeeper = Goalkeeper()
         self.ball = Ball()
         self.scoreboard = Scoreboard()
+        self.year_label = self.scoreboard.font.render("2026", True, WHITE)
 
         self.game_over = False
         self.running = True
@@ -282,6 +283,7 @@ class Game:
                 message_box,
             )
 
+        self.screen.blit(self.year_label, (20, HEIGHT - 40))
         pygame.display.flip()
 
     def run(self):
