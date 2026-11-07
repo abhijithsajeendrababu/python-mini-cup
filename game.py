@@ -8,7 +8,6 @@ HEIGHT = 600
 GREEN = (34, 139, 34)
 WHITE = (255, 255, 255)
 RED = (220, 20, 60)
-GOLD = (255, 210, 50)
 
 
 class Goal:
