@@ -50,7 +50,7 @@ class Goalkeeper:
             self.image, self.box.size
         )
 
-        self.speed = 6
+        self.speed = 12
 
     def move(self, goal):
         self.box.x += self.speed
@@ -74,7 +74,7 @@ class Goalkeeper:
 
     def reset(self):
         self.box.x = 340
-        self.speed = 6
+        self.speed = 12
 
     def draw(self, screen):
         screen.blit(self.image, self.box)
